@@ -6,7 +6,7 @@ new_arr = []
     new_arr << arr.join(" and ")
   else 
     arr[-1] = " and " + arr[-1]
-    new_arr << arr.join("' ")
+    new_arr << arr.join(", ")
   end 
   new_arr.join
 end
