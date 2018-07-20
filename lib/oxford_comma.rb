@@ -4,5 +4,6 @@ new_arr = []
     new_arr << arr[0] 
   elsif arr.length == 2 
     new_arr = arr.join(", and ")
-  end     
+  end 
+  new_arr
 end
