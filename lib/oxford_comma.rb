@@ -5,5 +5,5 @@ new_arr = []
   elsif arr.length == 2 
     new_arr << arr.join(", and ")
   end 
-  new_arr
+  new_arr.to_s
 end
