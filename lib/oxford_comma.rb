@@ -5,7 +5,8 @@ new_arr = []
   elsif arr.length == 2 
     new_arr << arr.join(" and ")
   else 
-    new_arr << (arr[0]..arr[-2]).join(", ")
+    arr[-1] = " and" + arr[-1]
+    new_arr << arr.join("' ")
   end 
   new_arr.join
 end
